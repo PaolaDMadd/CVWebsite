@@ -7,6 +7,6 @@ window.addEventListener('scroll', function(event){
     } else {
         document.querySelector('.navbar').classList.remove('bg-light')
     }
-})
+});
 
 
