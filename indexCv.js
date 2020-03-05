@@ -1,12 +1,16 @@
 window.addEventListener('scroll', function(event){
+    const navbar= document.querySelector('.navbar');
+    const heroHeight = document.querySelector('.hero').height;
+    const bodyScroll = window.scrollY;
 
-    const heroHeight= document.querySelector('.hero').height;
-    const bodyScroll = event.target.body.scrollTop;
     if (bodyScroll > heroHeight) {
-        document.querySelector('.navbar').classList.add('bg-light');
+       navbar.classList.add('bg-light')
+        
     } else {
-        document.querySelector('.navbar').classList.remove('bg-light')
+        navbar.classList.remove('bg-light')
     }
-});
+})
+
+
 
 
