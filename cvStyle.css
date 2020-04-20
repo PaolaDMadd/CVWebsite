@@ -2,99 +2,88 @@
   background: #c3d3c6;
 }
 
-.color-border{
- border: 0.5em solid #bcc1b4;
+.color-border {
+  border: 0.5em solid #bcc1b4;
 }
 
-
- .card-img-top{
-   border-radius: 2em;
- }
-
-
-.btn-cards{
-width: auto;
-height: auto;
-background: radial-gradient( at center, #efd8ae, 40%, #b2beb5);
-border-radius: 5em;
-text-decoration: none;
-font-size: 16px !important;
-padding: 10px;
-
-}
-
-.bg-light-transparent{
-background-color: rgba(255, 255, 255, .80);
-}
-
-.round-corners{
- border-radius: 0.5em;
-}
-
-
-.sec-three-color{
-  background: radial-gradient( at center, #efd8ae, 40%, #b2beb5);
-}
-
-.footer {
-  border-radius: 0.5em;
-  background: radial-gradient( at center, #efd8ae, 40%, #b2beb5);
-}
-
-.hero{
-  opacity: 0.75;
-}
-
-/* arrow top up */
-.btn{
-width: auto;
-height: auto;
-border-radius: 50%;
-background-color: rgba(	239, 216, 174, .50);
-position: sticky;
-z-index: 99;
-float: right;
-top: 350px;
-border-color:  rgba(188, 194, 179);
-}
-
-.fas {
-text-align: center;
-font-size: 36px;
-color: rgba(136, 140, 131);
-
-} 
-
-.fa-mobile-alt, .far, .fab {
-  font-size: 30px;
-  color: rgba(136, 140, 131);
-  
-  } 
-
-  .icon-skills{
-    text-align: center;
-    font-size: 20px;
-    color: rgba(136, 140, 131);
-  }
-
-
-.my-name{
-
-  font-size: 18px;
-  font-weight: bold;
-
-}
-
-.info{
-  font-size: 12px;
-  text-align: center;
-}
-
-.card-img-top{
+.card-img-top {
+  border-radius: 2em;
   max-width: 250px;
   max-height: 250px;
-
   min-width: 150px;
   min-height: 150px;
 }
 
+.btn-cards {
+  width: auto;
+  height: auto;
+  background: radial-gradient(at center, #efd8ae, 40%, #b2beb5);
+  border-radius: 5em;
+  text-decoration: none;
+  font-size: 16px !important;
+  padding: 10px;
+  
+}
+
+.bg-light-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.round-corners {
+  border-radius: 0.5em;
+}
+
+.sec-three-color {
+  background: radial-gradient(at center, #efd8ae, 40%, #b2beb5);
+}
+
+.footer {
+  border-radius: 0.5em;
+  background: radial-gradient(at center, #efd8ae, 40%, #b2beb5);
+}
+
+.hero {
+  opacity: 0.75;
+}
+
+/* arrow top up */
+.btn {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  background-color: rgba(239, 216, 174, 0.5);
+  position: sticky;
+  z-index: 99;
+  float: right;
+  top: 350px;
+  border-color: rgba(188, 194, 179);
+}
+
+.fas {
+  text-align: center;
+  font-size: 36px;
+  color: rgba(136, 140, 131);
+}
+
+.fa-mobile-alt,
+.far,
+.fab {
+  font-size: 30px;
+  color: rgba(136, 140, 131);
+}
+
+.icon-skills {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(136, 140, 131);
+}
+
+.my-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 12px;
+  text-align: center;
+}
